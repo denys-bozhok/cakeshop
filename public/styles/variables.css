@@ -1,0 +1,44 @@
+@font-face {
+    font-family: ;
+    src: url();
+}
+
+
+:root {
+    --padding_xls: 160px;
+    --padding_ls: 60px;
+    --padding_s: 50px;
+    --padding_m: 40px;
+    --padding_l: 30px;
+    --padding_xl: 20px;
+    --padding_xxl: 10px;
+
+    --margin_xls: 160px;
+    --margin_ls: 60px;
+    --margin_s: 50px;
+    --margin_m: 40px;
+    --margin_l: 30px;
+    --margin_xl: 20px;
+    --margin_xxl: 10px;
+
+    --font-famyly_primary: ;
+    --font-famyly_secondary: ;
+
+    --font-size_xls: ;
+    --font-size_ls: ;
+    --font-size_s: ;
+    --font-size_m: ;
+    --font-size_l: ;
+    --font-size_xl: ;
+    --font-size_xxl: ;
+
+    --background_primary: rgb ();
+    --background_secondary: rgb ();
+    --background_third: rgb ();
+    --background_fourth: rgb ();
+
+    --text-color_primary: rgb ();
+    --text-color_secondary: rgb ();
+    --text-color_third: rgb ();
+    --text-color_fourth: rgb ();
+}
