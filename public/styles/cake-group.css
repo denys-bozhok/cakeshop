@@ -1,0 +1,76 @@
+.cake-group_img_1__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cake-group__row_3 {
+    position: relative;
+    top: 73px;
+}
+
+.cake-group__img_1 {
+    background: darkmagenta;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 7px;
+    border-radius: 11px;
+    width: 156.33px;
+    height: 134.56px;
+
+}
+
+.cake-group__img_2 {
+    background: darkmagenta;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 7px;
+    border-radius: 11px;
+    width: 235.36px;
+    height: 335.71px;
+}
+
+.cake-group__img_3 {
+    background: darkmagenta;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 7px;
+    border-radius: 11px;
+    width: 156.33px;
+    height: 235.48px;
+}
+
+.cake-group__img_4 {
+    background: darkmagenta;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 7px;
+    border-radius: 11px;
+    width: 156.33px;
+    height: 332.45px;
+}
+
+.cake-group__img_5 {
+    background: darkmagenta;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 7px;
+    border-radius: 11px;
+    width: 187.99px;
+    height: 98.94px;
+}
+
+.cake-group__img_6 {
+    background: darkmagenta;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 7px;
+    border-radius: 11px;
+    width: 235.36px;
+    height: 472.55px;
+}

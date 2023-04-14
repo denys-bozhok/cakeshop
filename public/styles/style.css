@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#app {
+    background: var(--bg-pr);
+}
+
+.header {
+    padding-top: var(--padding-m);
+}
+
+.header__nav {
+    width: 516px;
+}
+
+.header__icons {
+    width: 70px;
+}
+

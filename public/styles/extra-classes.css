@@ -1,0 +1,41 @@
+.logo{
+    font-family: var(--ff-logo);
+    font-size: 45px;
+    color: #2E2927;
+}
+
+.header__icon {
+    width: 20.28px;
+}
+
+.padding_icon {
+    padding: calc(var(--padding-xxs) / 2);
+}
+
+.flex_bw {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.padding_centr {
+    padding-left: calc(var(--padding-l) + 6px);
+    padding-right: calc(var(--padding-l) + 6px);
+}
+
+.main_text_style, 
+.min_text_style {
+    font-family: var(--ff-a);
+    color: var(--bg-sd);
+    font-size: var(--fs-xs);
+}
+.main_text_style {
+    font-size: var(--fs-xs);
+}
+.min_text_style {
+    font-size: var(--fs-xxs);
+}
+
+.text_centr {
+    text-align: center;
+}

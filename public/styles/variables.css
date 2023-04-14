@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "Inter";
+    src: url(../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face {
+    font-family: "Nanum";
+    src: url(../fonts/Nanum_Myeongjo/NanumMyeongjo-Regular.ttf);
+}
+@font-face {
+    font-family: "Dancing";
+    src: url(../fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+
+:root {
+
+    /* FONTS */
+    --ff-a: "Inter";
+    --ff-b: "Nanum";
+    --ff-logo: "Dancing";
+
+    --fs-xxs: 16px;
+    --fs-xs: 18px;
+    --fs-s: 20px;
+    --fs-m: 30px;
+    --fs-l: 42px;
+    --fs-xl: 45px;
+
+    /* TEXT COLORS */
+    --tc-pr: rgb(119, 119, 119);
+    --tc-sc: rgb(46, 41, 39);
+
+    /* BACKGROUNDS */
+    --bg-pr: rgb(245, 245, 245);
+    --bg-sd: rgb(119, 119, 119);
+    --bg-thrd: rgb(223, 223, 223);
+
+    /* PADDINGS/MARGINS */
+    --padding-xxs: 10px;
+    --padding-xs: 20px;
+    --padding-s: 30px;
+    --padding-m: 40px;
+    --padding-l: 50px;
+    --padding-xl: 60px;
+    --padding-xl: 160px;
+
+    --margin-xxs: 10px;
+    --margin-xs: 20px;
+    --margin-s: 30px;
+    --margin-m: 40px;
+    --margin-l: 50px;
+    --margin-xl: 60px;
+    --margin-xxl: 70px;
+}
