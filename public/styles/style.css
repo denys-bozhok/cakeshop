@@ -105,8 +105,9 @@ a {
     height: 240px;
 }
 
-
-
+.tittle__cintainer{
+    max-width: 720px;
+}
 
 .catalog__img-cake {
     background: url(../images/cakes/catalog/Rectangle\ 7.png);
@@ -162,9 +163,6 @@ a {
     font-family: var(--ff-a);
     padding: 24px 28px 28px 28px;
 }
-
-
-
 
 
 .bestseller__img-bisquit {
@@ -224,4 +222,20 @@ a {
     padding-bottom: 97px;
     max-width: 363px;
     line-height: 22.4px;
+}
+
+.more_button__container {
+    position: relative;
+    left: 630px;
+    font-size: var(--fs-xs);
+}
+
+.button__more {
+    padding-right: 5px;
+}
+
+.button_more__img{
+    width: 11.77px;
+    height: 20px;
+    padding-top: 3px;
 }
