@@ -24,10 +24,12 @@
     --fs-m: 30px;
     --fs-l: 42px;
     --fs-xl: 45px;
+    --fs-xxl: 70px;
 
     /* TEXT COLORS */
-    --tc-pr: rgb(119, 119, 119);
-    --tc-sc: rgb(46, 41, 39);
+    --text-color-pr: rgb(119, 119, 119);
+    --text-color-sc: rgb(46, 41, 39);
+
 
     /* BACKGROUNDS */
     --bg-pr: rgb(245, 245, 245);
@@ -41,7 +43,7 @@
     --padding-m: 40px;
     --padding-l: 50px;
     --padding-xl: 60px;
-    --padding-xl: 160px;
+    --padding-xxl: 160px;
 
     --margin-xxs: 10px;
     --margin-xs: 20px;
@@ -50,4 +52,21 @@
     --margin-l: 50px;
     --margin-xl: 60px;
     --margin-xxl: 70px;
+
+
+    /* CAKEGROUP */
+    --img_w_xs: 156.33px;
+    --img_w_s: 235.36px;
+    --img_w_m: 187.99px;
+
+    --img_h_xs: 98.94px;
+    --img_h_s: 134.56px;
+    --img_h_m: 235.48px;
+    --img_h_l: 332.45px;
+    --img_h_xl: 335.71px;
+    --img_h_xxl: 472.55px;
+
+    --img_bg-size_m: 278%;
+    --img_bg-size_l: 348%;
+    --img_bg-size_xl: 418%;
 }
