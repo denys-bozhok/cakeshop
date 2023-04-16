@@ -88,6 +88,12 @@ a {
     font-size: var(--fs-xxs);
 }
 
+.row__tittle{
+    font-size: var(--fs-xs);
+    color: var(--text-color-sc);
+    text-transform: uppercase;
+}
+
 .why_choose_us_row__discription{
     padding-top: 20px;
     line-height: 20.8px;
