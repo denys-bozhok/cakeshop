@@ -1,6 +1,29 @@
-#background_image {
-    background-position: center;
-    background-size: cover;
+.flex_ev,
+.flex_bw,
+.flex_center {
+    display: flex;
+}
+.content_tittle,
+.tittle_style,
+.button_style
+{
+    color: var(--text-color-sc);
+}
+.content_tittle,
+.tittle_style
+{
+    font-family: var(--ff-b);
+    text-transform: uppercase;
+}
+.bestseller_button,
+.slyder_button {
+    border: none;
+    background: inherit;
+    border-radius: 3px;
+}
+.bestseller_button,
+.main_text_style{
+    color: var(--text-color-pr);
 }
 
 .logo{
@@ -8,23 +31,17 @@
     font-size: var(--fs-xl);
     color: var(--tc-sc);
 }
-
 .header__icon {
-    width: 20.28px;
+    width: calc(var(--width-xs) + 0.28px);
 }
 
-.flex_ev,
-.flex_bw,
-.flex_center {
-    display: flex;
-}
+
 .flex_bw {
     justify-content: space-between;
 }
 .flex_ev {
     justify-content: space-evenly;
 }
-
 .flex_center {
     justify-content: center;
 }
@@ -34,7 +51,6 @@
 .text_center {
     text-align: center;
 }
-
 
 
 .padding_icon {
@@ -50,81 +66,55 @@
     padding-top: var(--padding-xl);
 }
 .padding__category{
-    padding-top: 37px;
+    padding-top: calc(var(--padding-m) - 3px);
 }
 .padding_content{
-    padding: 0 40px 0 40px;
+    padding: 0 var(--padding-m) 0 var(--padding-m);
 }
 
 
-
-.content_tittle,
-.tittle_style
-{
-    font-family: var(--ff-b);
-    color: var(--text-color-sc);
-    text-transform: uppercase;
-}
 .content_tittle{
-    text-transform: uppercase;
     font-size: var(--fs-s);
 }
 .tittle_style {
     font-size: var(--fs-l);
-    padding-bottom: 60px;
+    padding-bottom: var(--padding-xl);
 }
-
 .main_text_style{
-    color: var(--text-color-pr);
     font-family: var(--ff-a);
     font-size: var(--fs-xs);
 }
 
-
-.bestseller_button,
-.slyder_button{
-    border: none;
-    background: inherit;
-    border-radius: 3px;
-}
 .button_style {
     padding: calc(var(--padding-xs) - 2px) calc(var(--fs-xxl) - 6px);
     background: none;
     border: 2px solid var(--text-color-sc);
-    color: var(--text-color-sc);
 }
-
 .bestseller_button{
-    color: var(--text-color-pr);
-    width: 40px;
-    height: 40px;
-    font-size: 30px;
+    width: calc(var(--width-xs) * 2);
+    height: calc(var(--height-xs) * 2);
+    font-size: var(--fs-m);
     border: 1px solid var(--text-color-sc);
 }
 .slyder_button {
-    width: 12px;
-    height: 12px;
+    width: calc(var(--width-xxs) + 2px);
+    height: calc(var(--height-xxs) + 2px);
 }
-
 .customer__img{
-    width: 50px;
-    height: 50px;
+    width: calc(var(--width-s) / 2);
+    height: calc(var(--height-s) / 2);
 }
-
 .rewiew_first {
     position: relative;
     top: 34px;
 }
-
 .main_categoty_img{
-    width: 440px;
-    height: 440px;
+    width: calc(var(--width-l) + 40px);
+    height: calc(var(--height-l) + 40px);
 }
-
 .order_info_row{
-    margin-bottom: 28px;
+    margin-bottom: calc(var(--margin-s) - 2px);
     padding-bottom: calc(var(--padding-xxs) + 6px);
-    max-width: 560px;
+    max-width: calc(var(--width-xl) + 60px);
     border-bottom: 1px solid var(--bg-thrd);
 }
-

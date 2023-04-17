@@ -12,12 +12,14 @@
 }
 
 :root {
+    /* BORDERS */
+    --border-comment: 1px solid var(--text-color-sc);
 
-    /* FONTS */
+    /* FONT-FAMILY */
     --ff-a: "Inter";
     --ff-b: "Nanum";
     --ff-logo: "Dancing";
-
+    /* FONT-SIZE */
     --fs-xxs: 16px;
     --fs-xs: 18px;
     --fs-s: 20px;
@@ -25,26 +27,53 @@
     --fs-l: 42px;
     --fs-xl: 45px;
     --fs-xxl: 70px;
-
     /* TEXT COLORS */
     --text-color-pr: rgb(119, 119, 119);
     --text-color-sc: rgb(46, 41, 39);
-
+    --text-color-third: rgb(255, 255, 255);
+    /* lINE-HEIGHT */
+    --line-h-m: 20px;
+    --line-h-l: 30px;
 
     /* BACKGROUNDS */
     --bg-pr: rgb(245, 245, 245);
     --bg-sd: rgb(119, 119, 119);
     --bg-thrd: rgb(223, 223, 223);
+    /* width */
+    --width-xxs: 10px;
+    --width-xs: 20px;
+    --width-s: 100px;
+    --width-m: 200px;
+    --width-m-2: 300px;
+    --width-l: 400px;
+    --width-xl: 500px;
+    --width-xxl: 600px;
+    --width-xxxl: 700px;
+    --width-app: 1512px;
+    /* height */
+    --height-xxs: 10px;
+    --height-xs: 20px;
+    --height-s: 100px;
+    --height-m: 200px;
+    --height-m-2: 300px;
+    --height-l: 400px;
+    --height-xl: 500px;
+    --height-xxl: 600px;
+    --height-xxxl: 700px;
 
-    /* PADDINGS/MARGINS */
+    /* PADDINGS */
+    --padding-xxxs: 3px;
     --padding-xxs: 10px;
     --padding-xs: 20px;
     --padding-s: 30px;
     --padding-m: 40px;
     --padding-l: 50px;
     --padding-xl: 60px;
+    --padding-xl-2: 100px;
     --padding-xxl: 160px;
-
+    --padding-comment: 24px 28px 28px 28px;
+    --padding-info: 28px 0 0 28px;
+    /* MARGINS */
     --margin-xxs: 10px;
     --margin-xs: 20px;
     --margin-s: 30px;
@@ -53,20 +82,19 @@
     --margin-xl: 60px;
     --margin-xxl: 70px;
 
-
     /* CAKEGROUP */
+    --img_bg-size_m: 278%;
+    --img_bg-size_l: 348%;
+    --img_bg-size_xl: 418%;
+    /* width */
     --img_w_xs: 156.33px;
     --img_w_s: 235.36px;
     --img_w_m: 187.99px;
-
+    /* height */
     --img_h_xs: 98.94px;
     --img_h_s: 134.56px;
     --img_h_m: 235.48px;
     --img_h_l: 332.45px;
     --img_h_xl: 335.71px;
     --img_h_xxl: 472.55px;
-
-    --img_bg-size_m: 278%;
-    --img_bg-size_l: 348%;
-    --img_bg-size_xl: 418%;
 }

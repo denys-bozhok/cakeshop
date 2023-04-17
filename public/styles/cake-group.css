@@ -1,11 +1,14 @@
-.cake-group__row_2, .cake-group__row_3 {
-    margin-left: calc(var(--padding-xxs) + 3.86px);
-}
-
 .cake-group__img_2,
 .cake-group__img_4,
 .cake-group__img_6 {
     margin-top: calc(var(--padding-xxs) + 3.86px);
+}
+.cake-group__row_2, .cake-group__row_3 {
+    margin-left: calc(var(--padding-xxs) + 3.86px);
+}
+.cake-group__row_3 {
+    position: relative;
+    top: 73px;
 }
 
 .cake-group__img_1,
@@ -16,38 +19,33 @@
 .cake-group__img_6,
 .cake-group__img_7 {
     background: url("../images/cakes/cake_group/viktor-zhulin-eLHsbiCipc8-unsplash\ 1.png");
-    background-repeat: no-repeat;
     border-radius: 11px;
 }
-
-
-.cake-group__row_3 {
-    position: relative;
-    top: 73px;
-}
-
-.cake-group__img_1 {
+.cake-group__img_1,
+.cake-group__img_3,
+.cake-group__img_4{
     width: var(--img_w_xs);
-    height: var(--img_h_s);
     background-size: var(--img_bg-size_xl);
+}
+.cake-group__img_2,
+.cake-group__img_6{
+    width: var(--img_w_s);
+    background-size: var(--img_bg-size_m);
+}
+.cake-group__img_1 {
+    height: var(--img_h_s);
     background-position: 25% 3%;
 }
 .cake-group__img_2 {
-    width: var(--img_w_s);
     height: var(--img_h_xl);
-    background-size: var(--img_bg-size_m);
     background-position: 0 57%;
 }
 .cake-group__img_3 {
-    width: var(--img_w_xs);
     height: var(--img_h_m);
-    background-size: var(--img_bg-size_xl);
     background-position: top;
 }
 .cake-group__img_4 {
-    width: var(--img_w_xs);
     height: var(--img_h_l);
-    background-size: var(--img_bg-size_xl);
     background-position: 50% 73%;
 }
 .cake-group__img_5 {
@@ -57,8 +55,6 @@
     background-position: 89% 10%;
 }
 .cake-group__img_6 {
-    width: var(--img_w_s);
     height: var(--img_h_xxl);
-    background-size: var(--img_bg-size_m);
     background-position: 100% 96%;
 }

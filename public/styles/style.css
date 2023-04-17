@@ -7,119 +7,139 @@ a {
     text-decoration: none;
     color: inherit;
 }
-
 #app {
     background: var(--bg-pr);
-    max-width: 1512px;
+    max-width: var(--width-app);
 }
 
 
-.header, .banner{
+.header, .banner {
     padding-top: var(--padding-m);
 }
-
-.header__nav {
-    width: 516px;
-}
-
-.header__icons {
-    width: 70px;
-}
-
-.banner{
-     margin-bottom: calc(var(--margin-xxl) + 3px);
-}
-
-.banner__tittle,.customer__info{
+.banner__tittle,
+.customer__info,
+.row__tittle {
     text-transform: uppercase;
 }
 
+.row__tittle,
+.more_button__container,
 .banner__tittle {
-    font-size: var(--fs-xxl);
-    color: var(--text-color-);
+    color: var(--text-color-sc);
+}
+.row__tittle,
+.more_button__container {
+    font-size: var(--fs-xs);
+}
+.why_choose_us_row__discription,
+.customer__comment,
+.send_photo__button {
+    font-size: var(--fs-xxs);
+}
+.review_secondary__container,
+.review {
+    margin: var(--margin-xxs);
+    line-height: calc(--line-h-m) + 0.8px;
+    width: calc(var(--width-l) + 74px);
+    height: calc(var(--height-s) + 72px);
+}
+.customer__comment,
+.customer__info{
+    color: var(--text-color-pr);
+}
+.slyder__wrapper,
+.main_order__tittle
+{
+    padding-top: var(--padding-xl-2);
 }
 
+.slyder__button_prev,
+.send_photo__button{
+    background: var(--bg-sd);
+}
+.slyder__button_next,
+.review {
+    background: var(--bg-thrd);
+}
+
+
+.header__nav {
+    width: calc(var(--width-xl) + 16px);
+}
+.header__icons {
+    width: calc(var(--width-s) - 30px);
+}
+
+
+.banner__tittle {
+    font-size: var(--fs-xxl);
+}
 .banner__discription {
     padding-top: var(--padding-s);
 }
-
 .button{
     padding-top: var(--padding-l);
 }
 
 
-.about_us__information{
-    width: 564px;
-    padding-right: 120px;
+.about_us__wrapper{
+    padding-top: calc(var(--padding-xl) + 13px);
 }
-
+.about_us__img {
+    background: url(../images/cakes/banners/Rectangle\ 14.png);
+    width: calc(var(--width-xl) + 60px);
+    height: calc(var(--height-xxl) + 64px);
+    border-radius: 11px;
+}
+.about_us__information{
+    padding: 0 calc(var(--padding-xl) * 2) 0 calc(var(--padding-xxl) - 4px);
+}
 .about_us__tittle {
     padding-bottom: calc(var(--padding-xs) + 4px);
 }
-
 .about_us__discription{
-    padding-top: calc(var(--padding-xs) - 1.5px);
-    padding-bottom: calc(var(--padding-xxs) + 11px);
-    line-height: 27px;
+    width: calc(var(--width-xl) + 64px);
+    padding: calc(var(--padding-xs) - 1.5px) 0 calc(var(--padding-xxs) + 11px) 0;
+    line-height: calc(var(--line-h-l) - 3px);
 }
 
-.about_us__img {
-    background: url(../images/cakes/banners/Rectangle\ 14.png);
-    border-radius: 11px;
-    width: 560px;
-    height: 664px;
-}
 
 .hexagon {
     background: url("../icons/hexagon.png");
-    min-width: 35.62px;
-    max-height: 39px;
-    margin-right: 26px;
+    min-width: calc(var(--width-xs) + 15.62px);
+    max-height: calc(var(--height-xs) * 2 - 1px);
+    margin-right: calc(var(--margin-xs) + 6px);
 }
 .why_choose_us__row{
     align-items: normal;
-    height: 88px;
     max-width: 25%;
 }
-
-.why_choose_us_row__discription,
-.customer__comment,
-.send_photo__button{
-    font-size: var(--fs-xxs);
-}
-
-.row__tittle{
-    font-size: var(--fs-xs);
-    color: var(--text-color-sc);
-    text-transform: uppercase;
-}
-
 .why_choose_us_row__discription{
-    padding-top: 20px;
-    line-height: 20.8px;
+    padding-top: var(--padding-xs);
+    line-height: calc(var(--line-h-m) + 0.8px);
 }
+
 
 .main_banner__img {
     background: url(../images/cakes/banners/alex-lvrs-1Qn9aCv4T3E-unsplash\ 1.png);
     width: 100%;
-    height: 240px;
+    height: calc(var(--height-m) + 40px);
 }
+
 
 .tittle__cintainer{
-    max-width: 720px;
+    max-width: calc(var(--width-xxxl) + 20px);
 }
-
 .catalog__img-cake {
     background: url(../images/cakes/catalog/Rectangle\ 7.png);
 }
-
 .catalog__img-cookies {
     background: url(../images/cakes/catalog/Rectangle\ 8.png);
 }
-
 .catalog__img-cupcakes {
     background: url(../images/cakes/catalog/Rectangle\ 8\ \(1\).png);
 }
+
 
 .customer__img_1{
     background: url("../images/customers/anastasia.png");
@@ -130,39 +150,21 @@ a {
 .customer__img_3{
     background: url("../images/customers/kristina.png");
 }
-
 .customer__name {
     padding-left: calc(var(--padding-xxs) + 4px);
 }
-
 .customer__info{
-    padding-left: 28px;
-    padding-top: 28px;
+    padding: var(--padding-info);
     display: flex;
-    font-family: var(--ff-b);
-}
-.review_secondary__container,.review{
-    margin: var(--padding-xxs);
-}
-.review{
-    width: 474px;
-    height: 172px;
-    line-height: 20.8px;
 }
 .review_secondary__container{
-    border: 1px solid var(--text-color-sc);
-    width: 474px;
-    height: 172px;
-    line-height: 20.8px;
+    border: var(--border-comment);
 }
-.customer__comment,.customer__info{
-    color: var(--text-color-pr);
-}
-
 .customer__comment {
     font-family: var(--ff-a);
-    padding: 24px 28px 28px 28px;
+    padding: var(--padding-comment);
 }
+
 
 
 .bestseller__img-bisquit {
@@ -174,68 +176,63 @@ a {
 .bestseller__img-cupcakes {
     background: url("../images/cakes/top/milk_cream.png");  
 }
-
 .bestseller__basket {
-    width: 100px;
-    height: 40px;
+    width: var(--width-s);
+    height: calc(var(--height-xs) * 2);
 }
 
 .bestseller__price{
-    padding-right: 19px;
+    padding-right: calc(var(--padding-m) - 1px);
 }
 
-.slyder__wrapper,
-.main_order__tittle
-{
-    padding-top: 100px;
-}
-
-.slyder__button_prev,
-.send_photo__button{
-    background: var(--bg-sd);
-}
-.slyder__button_next,.review {
-    background: var(--bg-thrd);
-}
 
 .main_order__wrapper {
     background: url("../images/cakes/banners/Rectangle\ 17.png");
 }
-
 .button__icon {
-    width: 13.87px;
-    height: 15.7px;
+    width: calc(var(--width-xxs) + 3.87px);
+    height: calc(var(--height-xxs) + 5.7px);
 }
-
 .send_photo__button {
-    width: 191px;
-    height: 48px;
-    color: rgba(255, 255, 255, 1);
-    padding-left: 12px;
-    padding-right: 12px;
+    width: calc(var(--width-m) - 9px);
+    height: calc(var(--height-xs) * 2 + 8px);
+    color: var(--text-color-third);
+    padding: 0 calc(var(--padding-xxs) + 2px) 0 calc(var(--padding-xxs) + 2px);
     margin-bottom: var(--margin-xl);
     border: none;
 }
-
 .order_info {
-    padding-top: 23px;
-    padding-bottom: 97px;
-    max-width: 363px;
-    line-height: 22.4px;
+    padding: calc(var(--padding-xs) + 3px) 0 calc(var(--padding-xl-2) - 3px) 0;
+    max-width: calc(var(--width-m-2) + 63px);
+    line-height: calc(var(--line-h-m) + 2.4px);
 }
-
 .more_button__container {
     position: relative;
     left: 630px;
-    font-size: var(--fs-xs);
 }
-
 .button__more {
-    padding-right: 5px;
+    padding-right: calc(var(-padding-xxxs) + 2px);
+}
+.button_more__img{
+    width: calc(var(--width-xxs) + 1.77px);
+    height: var(--height-xs);
+    padding-top: var(--padding-xxxs);
 }
 
-.button_more__img{
-    width: 11.77px;
-    height: 20px;
-    padding-top: 3px;
+.hexagon,
+.about_us__img,
+.main_banner__img,
+.catalog__img-cake,
+.catalog__img-cookies,
+.catalog__img-cupcakes,
+.customer__img_1,
+.customer__img_2,
+.customer__img_3,
+.bestseller__img-bisquit,
+.bestseller__img-cheescake, 
+.bestseller__img-cupcakes,
+.main_order__wrapper
+{
+    background-position: center;
+    background-size: cover;
 }
