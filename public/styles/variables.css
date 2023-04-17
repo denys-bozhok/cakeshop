@@ -2,10 +2,12 @@
     font-family: "Inter";
     src: url(../fonts/Inter/Inter-VariableFont_slnt\,wght.ttf);
 }
+
 @font-face {
     font-family: "Nanum";
     src: url(../fonts/Nanum_Myeongjo/NanumMyeongjo-Regular.ttf);
 }
+
 @font-face {
     font-family: "Dancing";
     src: url(../fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf);
@@ -27,6 +29,7 @@
     --fs-l: 42px;
     --fs-xl: 45px;
     --fs-xxl: 70px;
+    --fs-logo: 54px;
     /* TEXT COLORS */
     --text-color-pr: rgb(119, 119, 119);
     --text-color-sc: rgb(46, 41, 39);

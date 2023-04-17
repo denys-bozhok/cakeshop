@@ -3,19 +3,34 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 a {
     text-decoration: none;
     color: inherit;
 }
-#app {
-    background: var(--bg-pr);
-    max-width: var(--width-app);
+
+h2 {
+    font-size: inherit;
+    font-weight: inherit;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    background: var(--bg-pr);
 
-.header, .banner {
+}
+
+#app {
+    max-width: var(--width-app);
+    overflow: auto;
+}
+
+.header,
+.banner {
     padding-top: var(--padding-m);
 }
+
 .banner__tittle,
 .customer__info,
 .row__tittle {
@@ -23,40 +38,39 @@ a {
 }
 
 .row__tittle,
-.more_button__container,
 .banner__tittle {
     color: var(--text-color-sc);
 }
-.row__tittle,
-.more_button__container {
-    font-size: var(--fs-xs);
-}
+
 .why_choose_us_row__discription,
 .customer__comment,
 .send_photo__button {
     font-size: var(--fs-xxs);
 }
+
 .review_secondary__container,
 .review {
     margin: var(--margin-xxs);
-    line-height: calc(--line-h-m) + 0.8px;
+    line-height: calc(var(--line-h-m) + 0.8px);
     width: calc(var(--width-l) + 74px);
     height: calc(var(--height-s) + 72px);
 }
+
 .customer__comment,
-.customer__info{
+.customer__info {
     color: var(--text-color-pr);
 }
+
 .slyder__wrapper,
-.main_order__tittle
-{
+.main_order__tittle {
     padding-top: var(--padding-xl-2);
 }
 
 .slyder__button_prev,
-.send_photo__button{
+.send_photo__button {
     background: var(--bg-sd);
 }
+
 .slyder__button_next,
 .review {
     background: var(--bg-thrd);
@@ -66,38 +80,45 @@ a {
 .header__nav {
     width: calc(var(--width-xl) + 16px);
 }
+
 .header__icons {
-    width: calc(var(--width-s) - 30px);
+    width: calc(var(--width-s) - 12px);
 }
 
 
 .banner__tittle {
     font-size: var(--fs-xxl);
 }
+
 .banner__discription {
     padding-top: var(--padding-s);
 }
-.button{
+
+.button {
     padding-top: var(--padding-l);
 }
 
 
-.about_us__wrapper{
+.about_us__wrapper {
     padding-top: calc(var(--padding-xl) + 13px);
 }
+
 .about_us__img {
     background: url(../images/cakes/banners/Rectangle\ 14.png);
     width: calc(var(--width-xl) + 60px);
     height: calc(var(--height-xxl) + 64px);
     border-radius: 11px;
 }
-.about_us__information{
+
+.about_us__information {
     padding: 0 calc(var(--padding-xl) * 2) 0 calc(var(--padding-xxl) - 4px);
 }
+
 .about_us__tittle {
     padding-bottom: calc(var(--padding-xs) + 4px);
 }
-.about_us__discription{
+
+.about_us__discription {
     width: calc(var(--width-xl) + 64px);
     padding: calc(var(--padding-xs) - 1.5px) 0 calc(var(--padding-xxs) + 11px) 0;
     line-height: calc(var(--line-h-l) - 3px);
@@ -110,15 +131,20 @@ a {
     max-height: calc(var(--height-xs) * 2 - 1px);
     margin-right: calc(var(--margin-xs) + 6px);
 }
-.why_choose_us__row{
+
+.why_choose_us__row {
     align-items: normal;
     max-width: 25%;
 }
-.why_choose_us_row__discription{
+
+.why_choose_us_row__discription {
     padding-top: var(--padding-xs);
     line-height: calc(var(--line-h-m) + 0.8px);
 }
 
+.row__tittle {
+    font-size: var(--fs-xs);
+}
 
 .main_banner__img {
     background: url(../images/cakes/banners/alex-lvrs-1Qn9aCv4T3E-unsplash\ 1.png);
@@ -127,61 +153,71 @@ a {
 }
 
 
-.tittle__cintainer{
+.tittle__cintainer {
     max-width: calc(var(--width-xxxl) + 20px);
 }
+
 .catalog__img-cake {
     background: url(../images/cakes/catalog/Rectangle\ 7.png);
 }
+
 .catalog__img-cookies {
     background: url(../images/cakes/catalog/Rectangle\ 8.png);
 }
+
 .catalog__img-cupcakes {
     background: url(../images/cakes/catalog/Rectangle\ 8\ \(1\).png);
 }
 
 
-.customer__img_1{
+.customer__img_1 {
     background: url("../images/customers/anastasia.png");
 }
-.customer__img_2{
+
+.customer__img_2 {
     background: url("../images/customers/julia.png");
 }
-.customer__img_3{
+
+.customer__img_3 {
     background: url("../images/customers/kristina.png");
 }
+
 .customer__name {
     padding-left: calc(var(--padding-xxs) + 4px);
 }
-.customer__info{
+
+.customer__info {
     padding: var(--padding-info);
     display: flex;
 }
-.review_secondary__container{
+
+.review_secondary__container {
     border: var(--border-comment);
 }
+
 .customer__comment {
     font-family: var(--ff-a);
     padding: var(--padding-comment);
 }
 
-
-
 .bestseller__img-bisquit {
-    background: url("../images/cakes/top/bisquitt.png");  
+    background: url("../images/cakes/top/bisquitt.png");
 }
+
 .bestseller__img-cheescake {
-    background: url("../images/cakes/top/cheesecake.png");  
+    background: url("../images/cakes/top/cheesecake.png");
 }
+
 .bestseller__img-cupcakes {
-    background: url("../images/cakes/top/milk_cream.png");  
+    background: url("../images/cakes/top/milk_cream.png");
 }
+
 .bestseller__basket {
     width: var(--width-s);
     height: calc(var(--height-xs) * 2);
 }
 
-.bestseller__price{
+.bestseller__price {
     padding-right: calc(var(--padding-m) - 1px);
 }
 
@@ -189,10 +225,12 @@ a {
 .main_order__wrapper {
     background: url("../images/cakes/banners/Rectangle\ 17.png");
 }
+
 .button__icon {
     width: calc(var(--width-xxs) + 3.87px);
     height: calc(var(--height-xxs) + 5.7px);
 }
+
 .send_photo__button {
     width: calc(var(--width-m) - 9px);
     height: calc(var(--height-xs) * 2 + 8px);
@@ -201,22 +239,27 @@ a {
     margin-bottom: var(--margin-xl);
     border: none;
 }
+
 .order_info {
     padding: calc(var(--padding-xs) + 3px) 0 calc(var(--padding-xl-2) - 3px) 0;
     max-width: calc(var(--width-m-2) + 63px);
     line-height: calc(var(--line-h-m) + 2.4px);
 }
+
 .more_button__container {
     position: relative;
     left: 630px;
+    width: calc(var(--width-s) - 27px);
 }
-.button__more {
-    padding-right: calc(var(-padding-xxxs) + 2px);
+
+.button_more__icon {
+    position: relative;
+    top: 3px;
 }
-.button_more__img{
+
+.button_more__img {
     width: calc(var(--width-xxs) + 1.77px);
     height: var(--height-xs);
-    padding-top: var(--padding-xxxs);
 }
 
 .hexagon,
@@ -229,10 +272,9 @@ a {
 .customer__img_2,
 .customer__img_3,
 .bestseller__img-bisquit,
-.bestseller__img-cheescake, 
+.bestseller__img-cheescake,
 .bestseller__img-cupcakes,
-.main_order__wrapper
-{
+.main_order__wrapper {
     background-position: center;
     background-size: cover;
 }
