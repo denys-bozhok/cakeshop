@@ -18,7 +18,6 @@ body {
     display: flex;
     justify-content: center;
     background: var(--bg-pr);
-
 }
 
 #app {
@@ -38,13 +37,16 @@ body {
 }
 
 .row__tittle,
-.banner__tittle {
+.banner__tittle,
+.footer_row__tittle,
+.sub-footer__row {
     color: var(--text-color-sc);
 }
 
 .why_choose_us_row__discription,
 .customer__comment,
-.send_photo__button {
+.send_photo__button,
+.footer_row__email {
     font-size: var(--fs-xxs);
 }
 
@@ -261,6 +263,52 @@ body {
 .button_more__img {
     width: calc(var(--width-xxs) + 1.77px);
     height: var(--height-xs);
+}
+
+.footer_list__icons {
+    padding-right: var(--width-m);
+}
+
+.footer_icons__container {
+    width: calc(var(--width-m) - 40px);
+    padding-top: calc(var(--padding-xs) + 4px);
+}
+
+.insta__icon {
+    width: calc(var(--width-xs) - 1.25px);
+    height: calc(var(--height-xs) - 1.25px);
+}
+
+.telegram__icon {
+    width: calc(var(--width-xs) + 0.31px);
+    height: calc(var(--height-xs) - 1.61px);
+}
+
+.twitter__icon {
+    width: calc(var(--width-xs) + 0.49px);
+    height: calc(var(--height-xs) - 2px);
+}
+
+.footer_nav__container {
+    max-width: calc(var(--width-xl) * 2 + calc(var(--width-xs) * 2));
+}
+
+.footer__nav{
+    display: block;
+    justify-content: center;
+    width: calc(var(--width-m-2) + var(--width-xs));
+}
+
+.footer_row__tittle {
+    padding-bottom: calc(var(--padding-m) + 2px);
+}
+
+.sub-footer__nav {
+    padding-bottom: var(--padding-s);
+}
+
+.sub-footer__row {
+    padding-right: calc(var(--padding-xs) - 2px);
 }
 
 .hexagon,
