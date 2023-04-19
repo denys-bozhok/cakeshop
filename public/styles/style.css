@@ -303,6 +303,10 @@ body {
     padding-bottom: calc(var(--padding-m) + 2px);
 }
 
+.footer_row {
+    padding-bottom: var(--padding-s);
+}
+
 .sub-footer__nav {
     padding-bottom: var(--padding-s);
 }
