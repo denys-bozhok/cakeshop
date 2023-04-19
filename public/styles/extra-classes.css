@@ -5,12 +5,6 @@
 }
 
 .content_tittle,
-.tittle_style,
-.button_style {
-    color: var(--text-color-sc);
-}
-
-.content_tittle,
 .tittle_style {
     font-family: var(--ff-b);
     text-transform: uppercase;
@@ -32,6 +26,13 @@
 .footer_row__container{
     border-bottom: 1px solid var(--bg-thrd);
 }
+
+.content_tittle,
+.tittle_style,
+.button_style {
+    color: var(--text-color-sc);
+}
+
 
 .logo {
     font-family: var(--ff-logo);
