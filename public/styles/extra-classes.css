@@ -28,8 +28,9 @@
     color: var(--text-color-pr);
 }
 
-.order_info_row {
-    border-color: var(--bg-thrd);
+.order_info_row,
+.footer_row__container{
+    border-bottom: 1px solid var(--bg-thrd);
 }
 
 .logo {

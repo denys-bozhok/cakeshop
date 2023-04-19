@@ -78,6 +78,10 @@ body {
     background: var(--bg-thrd);
 }
 
+.footer_row__email,
+.sub-footer__nav {
+    padding-bottom: calc(var(--padding-xxs) + 4px);
+}
 
 .header__nav {
     width: calc(var(--width-xl) + 16px);
@@ -221,7 +225,7 @@ body {
 }
 
 .bestseller__price {
-    padding-right: calc(var(--padding-m) - 1px);
+    padding-right: 0 calc(var(--padding-m) - 1px) 0 var(--padding-m);
 }
 
 
@@ -251,7 +255,7 @@ body {
 
 .more_button__container {
     position: relative;
-    left: 630px;
+    left: 610px;
     width: calc(var(--width-s) - 27px);
 }
 
@@ -304,10 +308,6 @@ body {
 }
 
 .footer_row {
-    padding-bottom: var(--padding-s);
-}
-
-.sub-footer__nav {
     padding-bottom: var(--padding-s);
 }
 
